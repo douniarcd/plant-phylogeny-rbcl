@@ -1,0 +1,3 @@
+{"utc": "2026-11-26T23:35:59.561202+00:00", "argv": ["/usr/bin/seqkit", "stats", "-a", "-T", "/tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/data/processed/rbcl.fasta"], "cwd": "/tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL"}
+{"utc": "2026-11-26T23:35:59.600871+00:00", "argv": ["/usr/bin/mafft", "--auto", "--thread", "2", "/tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/data/processed/rbcl.fasta"], "cwd": "/tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL"}
+{"utc": "2026-11-26T23:36:00.627987+00:00", "argv": ["/usr/bin/iqtree2", "-s", "/tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/results/rbcl.aligned.fasta", "-st", "DNA", "-m", "MFP", "-B", "1000", "-T", "2", "-seed", "42", "-pre", "/tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/results/rbcl_ml"], "cwd": "/tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL"}

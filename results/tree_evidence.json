@@ -1,0 +1,8 @@
+{
+  "model": "HKY+F+G4",
+  "predicted_split_present": true,
+  "predicted_split_support": 100.0,
+  "bootstrap_replicates_requested": 1000,
+  "tree_sha256": "9f3e690e32a9993f368028c3a53454509fdae2dd76fed0b3ad3bd13c9a6e3e5c",
+  "alignment_sha256": "791a779a4797c35188862697edd9e386d82ef496c7516c64c290b1ff369fb008"
+}

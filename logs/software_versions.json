@@ -1,0 +1,9 @@
+{
+  "python": "3.13.18",
+  "biopython": "1.86",
+  "seqkit": "seqkit v2.3.0",
+  "mafft": "v7.505 (2022/Apr/10)",
+  "iqtree2": "IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024\nDeveloped by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,\nHeiko Schmidt, Dominik Schrempf, Michael Woodhams.",
+  "matplotlib": "3.10.0",
+  "reportlab": "5.1.2"
+}

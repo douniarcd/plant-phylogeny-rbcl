@@ -1,0 +1,28 @@
+{
+  "gap_free_variable_sites": 252,
+  "gap_free_variable_by_alignment_codon_position": {
+    "1": 42,
+    "2": 22,
+    "3": 188
+  },
+  "top_bic_models": [
+    {
+      "model": "HKY+F+G4",
+      "bic": 6980.3,
+      "weight": 0.37
+    },
+    {
+      "model": "HKY+F+I",
+      "bic": 6980.345,
+      "weight": 0.362
+    }
+  ],
+  "delta_bic": 0.045,
+  "terminal_branch_lengths": {
+    "Arabidopsis_thaliana": 0.0065846627,
+    "Oryza_sativa": 0.0117960571,
+    "Zea_mays": 0.0345283808,
+    "Triticum_aestivum": 0.0259443795,
+    "Brassica_rapa": 0.0208279545
+  }
+}

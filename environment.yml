@@ -1,0 +1,14 @@
+# Versions recorded for the primary analysis; exact environment solve not tested.
+name: rbcl-phylogeny
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.13.18
+  - mafft=7.505
+  - iqtree=2.0.7
+  - seqkit=2.3.0
+  - biopython=1.86
+  - matplotlib=3.10.0
+  - pandas

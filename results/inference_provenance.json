@@ -1,0 +1,9 @@
+{
+  "alignment_sha256": "791a779a4797c35188862697edd9e386d82ef496c7516c64c290b1ff369fb008",
+  "tree_sha256": "9f3e690e32a9993f368028c3a53454509fdae2dd76fed0b3ad3bd13c9a6e3e5c",
+  "iqtree_report_sha256": "08f06ad07ecc242222f78123b0a1f21840cd546e1df5be8a527b6359b5676210",
+  "seed": 42,
+  "threads": 2,
+  "bootstrap_replicates": 1000,
+  "completed_utc": "2026-11-26T23:36:01.892926+00:00"
+}

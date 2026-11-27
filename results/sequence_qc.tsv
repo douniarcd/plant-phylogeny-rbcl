@@ -1,0 +1,6 @@
+label	species	accession	group	location_biopython_0_based	start_1_based	end_1_based_inclusive	strand	cds_bp	protein_aa	codon_start	translation_table	internal_stops	terminal_stop	ambiguous_bases	annotation_translation_matches	protein_id
+Arabidopsis_thaliana	Arabidopsis thaliana	NC_000932.1	Brassicaceae	[54957:56397](+)	54958	56397	1	1440	479	1	11	0	True	0	True	NP_051067.1
+Oryza_sativa	Oryza sativa	NC_001320.1	Poaceae	[54094:55528](+)	54095	55528	1	1434	477	1	11	0	True	0	True	NP_039391.1
+Zea_mays	Zea mays	NC_001666.2	Poaceae	[56873:58304](+)	56874	58304	1	1431	476	1	11	0	True	0	True	NP_043033.1
+Triticum_aestivum	Triticum aestivum	NC_002762.1	Poaceae	[54909:56343](+)	54910	56343	1	1434	477	1	11	0	True	0	True	NP_114267.1
+Brassica_rapa	Brassica rapa	NC_040849.1	Brassicaceae	[53817:55257](+)	53818	55257	1	1440	479	1	11	0	True	0	True	YP_009553775.1

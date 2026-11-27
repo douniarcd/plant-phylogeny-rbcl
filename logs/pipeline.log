@@ -1,0 +1,36 @@
+2026-11-26 23:35:56,085 INFO Starting stage: preflight
+2026-11-26 23:35:56,085 INFO Python 3.13.18; Biopython 1.86
+2026-11-26 23:35:56,121 INFO seqkit: seqkit v2.3.0
+2026-11-26 23:35:56,169 INFO mafft: v7.505 (2022/Apr/10)
+2026-11-26 23:35:56,173 INFO iqtree2: IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+2026-11-26 23:35:56,380 INFO Completed stage: preflight
+2026-11-26 23:35:56,855 INFO Starting stage: download
+2026-11-26 23:35:56,856 INFO Fetching NC_000932.1 from NCBI EFetch
+2026-11-26 23:35:57,217 INFO Fetching NC_001320.1 from NCBI EFetch
+2026-11-26 23:35:57,537 INFO Fetching NC_001666.2 from NCBI EFetch
+2026-11-26 23:35:57,951 INFO Fetching NC_002762.1 from NCBI EFetch
+2026-11-26 23:35:58,264 INFO Fetching NC_040849.1 from NCBI EFetch
+2026-11-26 23:35:58,653 INFO Completed stage: download
+2026-11-26 23:35:59,068 INFO Starting stage: extract
+2026-11-26 23:35:59,135 INFO Extracted and validated 5 real rbcL CDS records
+2026-11-26 23:35:59,136 INFO Completed stage: extract
+2026-11-26 23:35:59,560 INFO Starting stage: align
+2026-11-26 23:35:59,560 INFO Executing /usr/bin/seqkit stats -a -T /tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/data/processed/rbcl.fasta
+2026-11-26 23:35:59,600 INFO Executing /usr/bin/mafft --auto --thread 2 /tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/data/processed/rbcl.fasta
+2026-11-26 23:36:00,175 INFO Alignment QC: {'taxa': 5, 'alignment_bp': 1443, 'variable_sites': 258, 'parsimony_informative_sites': 177, 'gap_columns': 15, 'trimming': 'none', 'alignment_sha256': '791a779a4797c35188862697edd9e386d82ef496c7516c64c290b1ff369fb008'}
+2026-11-26 23:36:00,176 INFO Completed stage: align
+2026-11-26 23:36:00,626 INFO Starting stage: infer
+2026-11-26 23:36:00,627 INFO Executing /usr/bin/iqtree2 -s /tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/results/rbcl.aligned.fasta -st DNA -m MFP -B 1000 -T 2 -seed 42 -pre /tmp/cbb26_rbcl_hd_x3laq/Project3_rbcL/results/rbcl_ml
+2026-11-26 23:36:01,893 INFO IQ-TREE inference completed.
+2026-11-26 23:36:01,893 INFO Completed stage: infer
+2026-11-26 23:36:02,308 INFO Starting stage: report
+2026-11-26 23:36:04,854 INFO Report and figure generated from genuine results.
+2026-11-26 23:36:04,854 INFO Completed stage: report
+2026-11-27 20:40:57,313 INFO Starting stage: report
+2026-11-27 20:40:58,952 INFO Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-11-27 20:40:59,007 INFO Failed to extract font properties from /usr/share/fonts/opentype/cantarell/Cantarell-VF.otf: Can not load face (SFNT font table missing; error code 0x8e)
+2026-11-27 20:40:59,224 INFO generated new fontManager
+2026-11-27 20:40:59,977 INFO Report and figure generated from genuine results.
+2026-11-27 20:40:59,977 INFO Completed stage: report

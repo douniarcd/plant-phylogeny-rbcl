@@ -1,0 +1,9 @@
+{
+  "taxa": 5,
+  "alignment_bp": 1443,
+  "variable_sites": 258,
+  "parsimony_informative_sites": 177,
+  "gap_columns": 15,
+  "trimming": "none",
+  "alignment_sha256": "791a779a4797c35188862697edd9e386d82ef496c7516c64c290b1ff369fb008"
+}
